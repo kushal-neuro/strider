@@ -55,9 +55,9 @@ class strider (
   
 ) inherits strider::params {
  
-  #contain strider::nodejs
-  #contain strider::db
-  #contain strider::clone
+  contain strider::nodejs
+  contain strider::db
+  contain strider::clone
   contain strider::config
 
 }
