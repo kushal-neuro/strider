@@ -42,7 +42,8 @@
 #
 # Copyright 2017 Your name here, unless otherwise noted.
 #
-class strider (  
+class strider (
+  $strider_user_email,$strider_user_pass,$strider_admin,$strider_force_flag,  
   $repo_url_suffix       = $strider::params::repo_url_suffix,   
   $database_name       = $strider::params::database_name,   
   $owner       = $strider::params::owner,   

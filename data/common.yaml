@@ -1,0 +1,5 @@
+---
+strider::strider_user_email: demo@test.com
+strider::strider_user_pass: password123
+strider::strider_admin: true
+strider::strider_force_flag: true
